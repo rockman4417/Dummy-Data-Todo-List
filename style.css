@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.incomplete {
+  color: red;
+}
+
+.completed {
+  color: green;
+}
+
+.todo-button {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+}
+
+ol {
+  font-weight: 600;
+  font-size: x-large;
+}
