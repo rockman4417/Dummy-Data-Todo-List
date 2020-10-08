@@ -23,3 +23,7 @@ ol {
   font-weight: 600;
   font-size: x-large;
 }
+
+.input {
+  width: 100px;
+}

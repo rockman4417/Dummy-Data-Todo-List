@@ -16,6 +16,7 @@ let arrayOfTodos = [
 let x = 20;
 let node;
 let button;
+let userID;
 
 let complete = document.querySelectorAll(".todo-button");
 
@@ -40,12 +41,9 @@ const populateTodos = () => {
     let textnode = document.createTextNode(arrayOfTodos[i].title);
     node.appendChild(textnode);
     buttons.push(button);
-    console.log(buttons);
-    console.log(buttons[i]);
     buttons[i].onclick = () => {
-      console.log(node);
-      node.classList.add("incomplete");
-      node.classList.remove("completed");
+      buttons[i].parentElement.classList.add("completed");
+      buttons[i].parentElement.classList.remove("incomplete");
     };
 
     if (arrayOfTodos[i].completed == false) {
@@ -56,6 +54,8 @@ const populateTodos = () => {
       node.classList.add("completed");
     }
   }
+  userID = document.getElementById("myInput").value;
+  console.log(userID);
 
   x + 20;
 };

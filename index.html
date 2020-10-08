@@ -7,13 +7,17 @@
     <title>Document</title>
   </head>
   <body>
-      <div><button onclick="fetchTodos()">Fetch Todos</button>
-        <button onclick="logTodos()">Log Todos</button>
-        <button onclick="populateTodos()">Populate Todos</button></div>
-    <div><ol id="todo-list">
+    <div>
+      <button onclick="fetchTodos()">Fetch Todos</button>
+      <button onclick="logTodos()">Log Todos</button>
+      <input type="number" min="1" max="10" id="myInput" />
+      <button onclick="populateTodos()">Populate Todos</button>
+    </div>
+    <div>
+      <ol id="todo-list">
         <!-- LIs will go here -->
-      </ol></div>
-    
+      </ol>
+    </div>
 
     <script src="script.js"></script>
   </body>
