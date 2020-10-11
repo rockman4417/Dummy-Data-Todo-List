@@ -14,16 +14,47 @@ body {
 }
 
 .todo-button {
-  width: 20px;
-  height: 20px;
+  width: 55px;
+  height: 30px;
   margin-left: 20px;
+  border: rgb(53, 52, 52);
 }
 
 ol {
   font-weight: 600;
   font-size: x-large;
+  line-height: 1.5;
 }
 
 .input {
   width: 100px;
+}
+
+.hide {
+  display: none;
+}
+
+button {
+  border: none;
+  width: 100px;
+  height: 40px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.top-container {
+  display: flex;
+  margin-top: 20px;
+  height: 30px;
+  margin-bottom: 50px;
+}
+
+input {
+  margin-right: 10px;
+  margin-left: 10px;
+  height: 35px;
+  border: 2px solid rgb(122, 115, 115);
+  text-align: center;
+  font-size: large;
+  font-weight: 600;
 }
